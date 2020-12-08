@@ -1,0 +1,73 @@
+﻿deviceId	address	name	description	unit	type	len	factor	offset	role	room	
+1	30001	Raumisttemp-HK1	Raumisttemparatur HK1	°C	int16be	1	0.1	0	value.temperature		
+1	30002	Raumsolltemp-HK1	Raumsolltemperatur HK1	°C	int16be	1	0.1	0	value.temperature		
+1	30003	Raumfeuchte-HK1	Raumfeuchte HK1	%	int16be	1	0.1	0	value.humidity		
+1	30004	Raumisttemp-HK2	Raumisttemparatur HK2	°C	int16be	1	0.1	0	value.temperature		
+1	30005	Raumsolltemp-HK2	Raumsolltemperatur HK2	°C	int16be	1	0.1	0	value.temperature		
+1	30006	Raumfeuchte-HK2	Raumfeuchte HK2	%	int16be	1	0.1	0	value.humidity		
+1	30007	Aussentemperatur	Aussentemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30008	Istwert-HK1	Istwert HK1	°C	int16be	1	0.1	0	value.temperature		
+1	30009	Sollwert-HK1	Sollwert HK1	°C	int16be	1	0.1	0	value.temperature		
+1	30010	Istwert-HK2	Istwert HK2	°C	int16be	1	0.1	0	value.temperature		
+1	30011	Sollwert-HK2	Sollwert HK2	°C	int16be	1	0.1	0	value.temperature		
+1	30012	Vorlauftemp	Vorlauftemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30013	Ruecklauftemp	Rücklauftemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30014	Druck-Heizkreis	Druck Heizkreis	bar	int16be	1	0.1	0	value.pressure		
+1	30015	Volumenstrom	Volumenstrom	l/min	int16be	1	0.1	0	value.valve		
+1	30016	WW-Isttemp	Warmwasser - Isttemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30017	WW-Sollttemp	Warmwasser - Solltemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30018	Zuluft-Ist-Luefterdrehzahl	Zuluft Ist - Lüfterdrehzahl	Hz	uint16be	1	1	0	value		
+1	30019	Zuluft-Soll-Volumenstrom	Zuluft Soll - Volumenstrom	m³/h	uint16be	1	1	0	value.valve		
+1	30020	Abluft-Ist-Luefterdrehzahl	Abluft Ist - Lüfterdrehzahl	Hz	uint16be	1	1	0	value		
+1	30021	Abluft-Soll-Volumenstrom	Abluft Soll - Volumenstrom	m³/h	uint16be	1	1	0	value.valve		
+1	30022	Abluftfeuchte	Abluftfeuchte	%	uint16be	1	1	0	value.humidity		
+1	30023	Ablufttemperatur	Ablufttemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30024	Ablufttaupunkt	Ablufttaupunkt	°C	int16be	1	0.1	0	value.temperature		
+1	30025	Taupunkttemperatur-HK1	Taupunkttemperatur HK1	°C	int16be	1	0.1	0	value.temperature		
+1	30026	Taupunkttemperatur-HK2	Taupunkttemperatur HK2	°C	int16be	1	0.1	0	value.temperature		
+1	30027	Kollektortemperatur	Kollektortemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30028	Heissgastemp	Heissgastemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30029	Hochdruck	Hochdruck	bar	int16be	1	0.01	0	value.pressure		
+1	30030	Niederdruck	Niederdruck	bar	int16be	1	0.01	0	value.pressure		
+1	30031	Verdichterstarts	Verdichterstarts		uint16be	1	1	0	value		
+1	30032	Verdichterdrehzahl	Verdichterdrehzahl	Hz	int16be	1	1	0	value.valve		
+1	30033	Mischwassermenge	Mischwassermenge	l	int16be	1	0.1	0	value		
+1	32001	Betriebsstatus	Betriebsstatus		uint16be	1	1	0	indicator		
+1	32002	Fehlerstatus	Fehlerstatus		uint16be	1	1	0	indicator		
+1	32003	BUS-Status	BUS-Status		int16be	1	1	0	indicator		
+1	32004	Abtauen-eingeleitet	Abtauen eingeleitet		uint16be	1	1	0	indicator		
+1	32005	Betriebsstatus-2	Betriebsstatus 2		uint16be	1	1	0	indicator		
+1	33001	WM-Heizen-Tag	Wärmemenge-Heizen - Tag	kWh	uint16be	1	1	0	value.power.consumption		
+1	33002	WM-Heizen-Summe	WM-Heizen - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33003	WM-Heizen-Summe	WM-Heizen - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33004	WM-WW-Tag	Wärmemenge-Warmwasser - Tag	kWh	uint16be	1	1	0	value.power.consumption		
+1	33005	WM-WW-Summe	Wärmemenge-Warmwasser - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33006	WM-WW-Summe	Wärmemenge-Warmwasser - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33007	WM-NE-Heizen-Summe	WM-NE-Heizen - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33008	WM-NE-Heizen-Summe	WM-NE-Heizen - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33009	WM-NE-WW-Summe	Wärmemenge-NE-Warmwasser - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33010	WM-NE-WW-Summe	Wärmemenge-NE-Warmwasser - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33011	WM-WRG-Tag	Wärmemenge-WRG - Tag	kWh	uint16be	1	1	0	value.power.consumption		
+1	33012	WM-WRG-Summe	Wärmemenge-WRG - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33013	WM-WRG-Summe	Wärmemenge-WRG - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33014	WM-Solar-HZ-Tag	Wärmemenge Solar HZ - Tag	kWh	uint16be	1	1	0	value.power.consumption		
+1	33015	WM-Solar-HZ-Summe	Wärmemenge Solar HZ - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33016	WM-Solar-HZ-Summe	Wärmemenge Solar HZ - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33017	WM-Solar-WW-Tag	Wärmemenge Solar WW - Tag	kWh	uint16be	1	1	0	value.power.consumption		
+1	33018	WM-Solar-WW-Summe	Wärmemenge Solar WW - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33019	WM-Solar-WW-Summe	Wärmemenge Solar WW - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33020	WM-Kuehlen_Summe	Wärmemenge Kühlen - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33021	WM-Kuehlen_Summe	Wärmemenge Kühlen - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33022	P-Heizung-Tag	P-Heizung - Tag	kWh	uint16be	1	1	0	value.power.consumption		
+1	33023	P-Heizung-Summe	P-Heizung - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33024	P-Heizung-Summe	P-Heizung - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33025	P-WW-Tag	P-Warmwasser - Tag	kWh	uint16be	1	1	0	value.power.consumption		
+1	33026	P-WW-Summe	P-Warmwasser - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33027	P-WW-Summe	P-Warmwasser - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33028	Verdichter-Heizen	Verdichter - Heizen	h	uint16be	1	1	0	value		
+1	33029	Verdichter-Kuehlen	Verdichter - Kühlen	h	uint16be	1	1	0	value		
+1	33030	Verdichter-WW	Verdichter - Warmwasser	h	uint16be	1	1	0	value		
+1	33031	Elektr-NE-Heizen	Elektr. Nacherwärmung - Heizen	h	uint16be	1	1	0	value		
+1	33032	Elektr-NE-WW	Elektr. Nacherwärung - Warmwasser	h	uint16be	1	1	0	value		
+1	35001	SG_ready_Betriebszustand	SG Ready Betriebszustand		uint16be	1	1	0	indicator		
+1	35002	Reglerkennung	Reglerkennung		uint16be	1	1	0	value		

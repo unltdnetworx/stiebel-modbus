@@ -1,0 +1,31 @@
+﻿deviceId	address	name	description	unit	type	len	factor	offset	role	room	poll	wp
+1	41001	Betriebsart	Betriebsart		uint16be	1	1	0	state		true	false	
+1	41002	Raumtemp-Tag-HK1	Raumsolltemperatur Tag - HK 1	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41003	Raumtemp-Nacht-HK1	Raumsolltemperatur Nacht - HK 1	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41004	Heizkreistemp-Soll-Hand-HK1	Heizkreistemperatur Soll - Hand - HK 1	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41005	Raumtemp-Tag-HK2	Raumsolltemperatur Tag - HK 2	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41006	Raumtemp-Nacht-HK2	Raumsolltemperatur Nacht - HK 2	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41007	Heizkreistemp-Soll-Hand-HK2	Heizkreistemperatur Soll - Hand - HK 2	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41008	Heizkurve_HK1-Steigung	Heizkurve HK1 - Steigung		int16be	1	0.1	0	level		true	false	
+1	41009	Heizkurve_HK1-Fusspunkt	Heizkurve HK1 - Fusspunkt	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41010	Heizkurve_HK2-Steigung	Heizkurve HK2 - Steigung		int16be	1	0.1	0	level		true	false	
+1	41011	Heizkurve_HK2-Fusspunkt	Heizkurve HK2 - Fusspunkt	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41012	WW-Soll-Tag	Warmwasser Soll - Tag	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41013	WW-Soll-Nacht	Warmwasser Soll - Nacht	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41014	WW-Soll-Handbetrieb	Warmwasser Soll - Handbetrieb	°C	int16be	1	0.1	0	value.temperature		true	false	
+1	41015	MWM-Soll-Tag	MWM-Soll - Tag	l	uint16be	1	1	0	value.valve		true	false	
+1	41016	MWM-Soll-Nacht	MWM-Soll-Nacht	l	uint16be	1	1	0	value.valve		true	false	
+1	41017	MWM-Soll-Handbetrieb	MWM-Soll - Handbetrieb	l	uint16be	1	1	0	value.valve		true	false	
+1	41018	Lueftung-Stufe-Tag	Lüftung-Stufe - Tag		uint16be	1	1	0	level.valve		true	false	
+1	41019	Lueftung-Stufe-Nacht	Lüftung-Stufe - Nacht		uint16be	1	1	0	level.valve		true	false	
+1	41020	Lueftung-Stufe-Party	Lüftung-Stufe - Party		uint16be	1	1	0	level.valve		true	false	
+1	41021	Lueftung-Stufe-Hand	Lüftung-Stufe - Hand		uint16be	1	1	0	level.valve		true	false	
+1	41022	Raumtemp-Kuehlen-HK1-Tag	Raumtemperatur Kühlen HK 1 - Tag	°C	uint16be	1	0.1	0	value.temperature		true	false	
+1	41023	Raumtemp-Kuehlen-HK1-Nacht	Raumtemperatur Kühlen HK 1 - Nacht	°C	uint16be	1	0.1	0	value.temperature		true	false	
+1	41024	Raumtemp-Kuehlen-HK2-Tag	Raumtemperatur Kühlen HK 2 - Tag	°C	uint16be	1	0.1	0	value.temperature		true	false	
+1	41025	Raumtemp-Kuehlen-HK2-Nacht	Raumtemperatur Kühlen HK 2 - Nacht	°C	uint16be	1	0.1	0	value.temperature		true	false	
+1	41026	Reset	Reset		uint16be	1	1	0	state		true	false	
+1	41027	Restart-ISG	Restart ISG		uint16be	1	1	0	state		true	false	
+1	44001	SG_Ready_ein-_und_ausschalten	SG Ready		uint16be	1	1	0	indicator		true	false	
+1	44002	SG_Ready_Eingang1	SG Ready - Eingang 1		uint16be	1	1	0	indicator		true	false	
+1	44003	SG_Ready_Eingang2	SG Ready - Eingang 2		uint16be	1	1	0	indicator		true	false	

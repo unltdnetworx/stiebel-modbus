@@ -37,9 +37,6 @@ deviceId	address	name	description	unit	type	len	factor	offset	role	room
 1	30536	Quellentemperatur	Quellentemperatur	°C	int16be	1	0.1	0	value.temperature		
 1	30537	Quellentemperatur-Min	Quellentemperatur Min	°C	int16be	1	0.1	0	value.temperature		
 1	30538	Quellendruck	Quellendruck	bar	int16be	1	0.01	0	value.valve		
-1	30539	Heissgastemperatur	Heissgastemperatur	°C	uint16be	1	0.1	0	value.temperature		
-1	30540	Hochdruck	Hochdruck	bar	int16be	1	0.1	0	value.valve		
-1	30541	Niederdruck	Niederdruck	bar	int16be	1	0.1	0	value.valve		
 1	30542	Ruecklauftemp-WP1	Rücklauftemperatur Wärmepumpe 1	°C	uint16be	1	0.1	0	value.temperature		
 1	30543	Vorlauftemp-WP1	Vorlauftemperatur Wärmepumpe 1	°C	uint16be	1	0.1	0	value.temperature		
 1	30544	Heissgastemp-WP1	Heissgastemperatur Wärmepumpe 1	°C	uint16be	1	0.1	0	value.temperature		
@@ -82,31 +79,6 @@ deviceId	address	name	description	unit	type	len	factor	offset	role	room
 1	30581	Druck-MD-WP6	Druck Mitteldruck Wärmepumpe 6	bar	uint16be	1	0.01	0	value.valve		
 1	30582	Druck-HD-WP6	Druck Hochdruck Wärmepumpe 6	bar	uint16be	1	0.01	0	value.valve		
 1	30583	Wasservolumenstrom-WP6	Wasservolumenstrom Wärmepumpe 6	l/min	uint16be	1	0.1	0	value.valve		
-1	30584	Raumisttemp-HK1	Raumisttemperatur HK 1	°C	uint16be	1	0.1	0	value.temperature		
-1	30585	Raumsolltemp-HK1	Raumsolltemperatur HK 1	°C	uint16be	1	0.1	0	value.temperature		
-1	30586	Raumfeuchte-HK1	Raumfeuchte HK 1	%	uint16be	1	0.1	0	value.humidity		
-1	30587	Taupunkttemp-HK1	Taupunkttemperatur HK 1	°C	uint16be	1	0.1	0	value.temperature		
-1	30588	Raumisttemp-HK2	Raumisttemperatur HK 2	°C	uint16be	1	0.1	0	value.temperature		
-1	30589	Raumsolltemp-HK2	Raumsolltemperatur HK 2	°C	uint16be	1	0.1	0	value.temperature		
-1	30590	Raumfeuchte-HK2	Raumfeuchte HK 2	%	uint16be	1	0.1	0	value.humidity		
-1	30591	Taupunkttemp-HK2	Taupunkttemperatur HK 2	°C	uint16be	1	0.1	0	value.temperature		
-1	30592	Raumisttemp-HK3	Raumisttemperatur HK 3	°C	uint16be	1	0.1	0	value.temperature		
-1	30593	Raumsolltemp-HK3	Raumsolltemperatur HK 3	°C	uint16be	1	0.1	0	value.temperature		
-1	30594	Raumfeuchte-HK3	Raumfeuchte HK 3	%	uint16be	1	0.1	0	value.humidity		
-1	30595	Taupunkttemp-HK3	Taupunkttemperatur HK 3	°C	uint16be	1	0.1	0	value.temperature		
-1	30596	Raumisttemp-HK4	Raumisttemperatur HK 4	°C	uint16be	1	0.1	0	value.temperature		
-1	30597	Raumsolltemp-HK4	Raumsolltemperatur HK 4	°C	uint16be	1	0.1	0	value.temperature		
-1	30598	Raumfeuchte-HK4	Raumfeuchte HK 4	%	uint16be	1	0.1	0	value.humidity		
-1	30599	Taupunkttemp-HK4	Taupunkttemperatur HK 4	°C	uint16be	1	0.1	0	value.temperature		
-1	30600	Raumisttemp-HK5	Raumisttemperatur HK 5	°C	uint16be	1	0.1	0	value.temperature		
-1	30601	Raumsolltemp-HK5	Raumsolltemperatur HK 5	°C	uint16be	1	0.1	0	value.temperature		
-1	30602	Raumfeuchte-HK5	Raumfeuchte HK 5	%	uint16be	1	0.1	0	value.humidity		
-1	30603	Taupunkttemp-HK5	Taupunkttemperatur HK 5	°C	uint16be	1	0.1	0	value.temperature		
-1	30604	Solltemp-KK1	Solltemperatur Kühlkreis 1	°C	uint16be	1	0.1	0	value.temperature		
-1	30605	Solltemp-KK2	Solltemperatur Kühlkreis 2	°C	uint16be	1	0.1	0	value.temperature		
-1	30606	Solltemp-KK3	Solltemperatur Kühlkreis 3	°C	uint16be	1	0.1	0	value.temperature		
-1	30607	Solltemp-KK4	Solltemperatur Kühlkreis 4	°C	uint16be	1	0.1	0	value.temperature		
-1	30608	Solltemp-KK5	Solltemperatur Kühlkreis 5	°C	uint16be	1	0.1	0	value.temperature		
 1	32501	Betriebsstatus	Betriebsstatus		uint16be	1	1	0	state		
 1	32502	EVU-Freigabe	EVU-Freigabe		uint16be	1	1	0	state		
 1	32503	Betriebsstatus-2	Betriebsstatus 2		uint16be	1	1	0	state		
@@ -114,46 +86,6 @@ deviceId	address	name	description	unit	type	len	factor	offset	role	room
 1	32505	BUS-Status	BUS-Status		int16be	1	1	0	state		
 1	32506	Abtauen-eingeleitet	Abtauen eingeleitet		uint16be	1	1	0	state		
 1	32507	aktiver-Fehler	aktiver Fehler		uint16be	1	1	0	state		
-1	32508	Meldungsnummer	Meldungsnummer		uint16be	1	1	0	value.valve		
-1	32509	Heizkreispumpe1	Status WPM - Heizkreispumpe 1		uint16be	1	1	0	value.valve		
-1	32510	Heizkreispumpe2	Status WPM - Heizkreispumpe 2		uint16be	1	1	0	value.valve		
-1	32511	Heizkreispumpe3	Status WPM - Heizkreispumpe 3		uint16be	1	1	0	value.valve		
-1	32512	Pufferladepumpe1	Status WPM - Pufferladepumpe 1		uint16be	1	1	0	value.valve		
-1	32513	Pufferladepumpe2	Status WPM - Pufferladepumpe 2		uint16be	1	1	0	value.valve		
-1	32514	WWladepumpe	Status WPM - Warmwasserladepumpe		uint16be	1	1	0	value.valve		
-1	32515	Quellenpumpe	Status WPM - Quellenpumpe		uint16be	1	1	0	value.valve		
-1	32516	Stoerausgang	Status WPM - Störausgang		uint16be	1	1	0	value.valve		
-1	32517	Zirkulationspumpe	Status WPM - Zirkulationspumpe		uint16be	1	1	0	value.valve		
-1	32518	2-WE-WW	Status WPM - 2. WE Warmwasser		uint16be	1	1	0	value.valve		
-1	32519	2-WE-HZ	Status WPM - 2. WE Heizung		uint16be	1	1	0	value.valve		
-1	32520	Kuehlbetrieb	Status WPM - Kühlbetrieb		uint16be	1	1	0	value.valve		
-1	32521	MischerAufHK2	Status WPM - Mischer HK 2 Auf		uint16be	1	1	0	value.valve		
-1	32522	MischerZuHK2	Status WPM - Mischer HK 2 Zu		uint16be	1	1	0	value.valve		
-1	32523	MischerAufHK3	Status WPM - Mischer HK 3 Auf		uint16be	1	1	0	value.valve		
-1	32524	MischerZuHK2	Status WPM - Mischer HK 3 Zu		uint16be	1	1	0	value.valve		
-1	32525	NHZ1	Status WPM - NHZ 1		uint16be	1	1	0	value.valve		
-1	32526	NHZ2	Status WPM - NHZ 2		uint16be	1	1	0	value.valve		
-1	32527	NHZ12	Status WPM - NHZ 1/2		uint16be	1	1	0	value.valve		
-1	32528	Heizkreispumpe4	Status WPM - Heizkreispumpe 4		uint16be	1	1	0	value.valve		
-1	32529	Heizkreispumpe5	Status WPM - Heizkreispumpe 5		uint16be	1	1	0	value.valve		
-1	32530	Pufferladepumpe3	Status WPM - Pufferladepumpe 3		uint16be	1	1	0	value.valve		
-1	32531	Pufferladepumpe4	Status WPM - Pufferladepumpe 4		uint16be	1	1	0	value.valve		
-1	32532	Pufferladepumpe5	Status WPM - Pufferladepumpe 5		uint16be	1	1	0	value.valve		
-1	32533	Pufferladepumpe6	Status WPM - Pufferladepumpe 6		uint16be	1	1	0	value.valve		
-1	32534	Pumpedifferenzregler1	Status WPM - Pumpe Differenzregler 1		uint16be	1	1	0	value.valve		
-1	32535	Pumpedifferenzregler2	Status WPM - Pumpe Differenzregler 2		uint16be	1	1	0	value.valve		
-1	32536	SchwimmbadpumpePrimaer	Status WPM - Schwimmbadpumpe primär		uint16be	1	1	0	value.valve		
-1	32537	SchwimmbadpumpeSekundaer	Status WPM - Schwimmbadpumpe sekundär		uint16be	1	1	0	value.valve		
-1	32538	MischerAufHK4	Status WPM - Mischer HK 4 Auf		uint16be	1	1	0	value.valve		
-1	32539	MischerZuHK4	Status WPM - Mischer HK 4 Zu		uint16be	1	1	0	value.valve		
-1	32540	MischerAufHK5	Status WPM - Mischer HK 5 Auf		uint16be	1	1	0	value.valve		
-1	32541	MischerZuHK5	Status WPM - Mischer HK 5 Zu		uint16be	1	1	0	value.valve		
-1	32542	Verdichter1	Status Wärmepumpe 1 - Verdichter		uint16be	1	1	0	value.valve		
-1	32543	Verdichter2	Status Wärmepumpe 2 - Verdichter		uint16be	1	1	0	value.valve		
-1	32544	Verdichter3	Status Wärmepumpe 3 - Verdichter		uint16be	1	1	0	value.valve		
-1	32545	Verdichter4	Status Wärmepumpe 4 - Verdichter		uint16be	1	1	0	value.valve		
-1	32546	Verdichter5	Status Wärmepumpe 5 - Verdichter		uint16be	1	1	0	value.valve		
-1	32547	Verdichter6	Status Wärmepumpe 6 - Verdichter		uint16be	1	1	0	value.valve		
 1	33501	VD-Heizen-Tag	Wärmemenge-Heizen (alle WP) - Tag	kWh	uint16be	1	1	0	value		
 1	33502	VD-Heizen-Summe	WM-Heizen (alle WP) - Summe	kWh	uint16be	1	1	0	value		
 1	33503	VD-Heizen-Summe	WM-Heizen (alle WP) - Summe	MWh	uint16be	1	1	0	value		
@@ -170,12 +102,6 @@ deviceId	address	name	description	unit	type	len	factor	offset	role	room
 1	33514	VD-Warmwasser-Tag	Leistungsaufnahme (alle WP) Warmwasser - Tag	kWh	uint16be	1	1	0	value.power.consumption		
 1	33515	VD-Warmwasser-Summe	Leistungsaufnahme(alle WP) Warmwasser - Summe	kWh	uint16be	1	1	0	value.power.consumption		
 1	33516	VD-Warmwasser-Summe	Leistungsaufnahme(alle WP) Warmwasser - Summe	MWh	uint16be	1	1	0	value.power.consumption		
-1	33517	VD-Heizen	Laufzeit Verdichter - Heizen	h	uint16be	1	1	0	value		
-1	33518	VD-Warmwasser	Laufzeit Verdichter - Warmwasser	h	uint16be	1	1	0	value		
-1	33519	VD-Kuehlen	Laufzeit Verdichter - Kühlen	h	uint16be	1	1	0	value		
-1	33520	NHZ1	Laufzeit NHZ 1	h	uint16be	1	1	0	value		
-1	33521	NHZ2	Laufzeit NHZ 2	h	uint16be	1	1	0	value		
-1	33522	NHZ12	Laufzeit NHZ 1/2	h	uint16be	1	1	0	value		
 1	33523	VD-Heizen-Tag-WP1	Verdichter Heizen Tag Wärmemenge - Wärmepumpe 1	kWh	uint16be	1	1	0	value		
 1	33524	VD-Heizen-Summe-WP1	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 1	kWh	uint16be	1	1	0	value		
 1	33525	VD-Heizen-Summe-WP1	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 1	MWh	uint16be	1	1	0	value		
@@ -297,17 +223,3 @@ deviceId	address	name	description	unit	type	len	factor	offset	role	room
 1	33641	VD2-WW	Laufzeit Verdichter 2 Warmwasser- Wärmepumpe 6	h	uint16be	1	1	0	value		
 1	33642	VD12-WW	Laufzeit Verdichter 1/2 Warmwasser- Wärmepumpe 6	h	uint16be	1	1	0	value		
 1	33643	VD1-Kuehlen	Laufzeit Verdichter Kühlen - Wärmepumpe 6	h	uint16be	1	1	0	value		
-1	33644	VD-Heizen-WP1	Laufzeit Verdichter Heizen - Wärmepumpe 1	h	uint16be	1	1	0	value		
-1	33645	VD-WW-WP1	Laufzeit Verdichter Warmwasser - Wärmepumpe 1	h	uint16be	1	1	0	value		
-1	33646	VD-Heizen-WP2	Laufzeit Verdichter Heizen - Wärmepumpe 2	h	uint16be	1	1	0	value		
-1	33647	VD-WW-WP2	Laufzeit Verdichter Warmwasser - Wärmepumpe 2	h	uint16be	1	1	0	value		
-1	33648	VD-Heizen-WP3	Laufzeit Verdichter Heizen - Wärmepumpe 3	h	uint16be	1	1	0	value		
-1	33649	VD-WW-WP3	Laufzeit Verdichter Warmwasser - Wärmepumpe 3	h	uint16be	1	1	0	value		
-1	33650	VD-Heizen-WP4	Laufzeit Verdichter Heizen - Wärmepumpe 4	h	uint16be	1	1	0	value		
-1	33651	VD-WW-WP4	Laufzeit Verdichter Warmwasser - Wärmepumpe 4	h	uint16be	1	1	0	value		
-1	33652	VD-Heizen-WP5	Laufzeit Verdichter Heizen - Wärmepumpe 5	h	uint16be	1	1	0	value		
-1	33653	VD-WW-WP5	Laufzeit Verdichter Warmwasser - Wärmepumpe 5	h	uint16be	1	1	0	value		
-1	33654	VD-Heizen-WP6	Laufzeit Verdichter Heizen - Wärmepumpe 6	h	uint16be	1	1	0	value		
-1	33655	VD-WW-WP6	Laufzeit Verdichter Warmwasser - Wärmepumpe 6	h	uint16be	1	1	0	value		
-1	35001	SG_ready_Betriebszustand	SG Ready Betriebszustand		uint16be	1	1	0	indicator		
-1	35002	Reglerkennung	Reglerkennung		uint16be	1	1	0	value		

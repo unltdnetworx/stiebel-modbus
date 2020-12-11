@@ -14,7 +14,7 @@ createState(DP1 + "AbtaubetriebMin1IWS", "", { name: "Mind. 1 IWS im Abtaubetrie
 createState(DP1 + "Silentmode1Aktiv", "", { name: "Silentmode 1 aktiv", type: "boolean", role: "state" });
 createState(DP1 + "Silentmode2Aktiv", "", { name: "Silentmode 2 aktiv/WP aus", type: "boolean", role: "state" });
 
-var id_betriebsstatus = "modbus." + modbus_instance + ".inputRegisters.32001_Betriebsstatus";
+var id_betriebsstatus = "modbus." + modbus_instance + ".inputRegisters.32501_Betriebsstatus";
 
 on(id_betriebsstatus, function (dp) {
     let binStatus = dp.state.val.toString(2);

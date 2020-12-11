@@ -1,0 +1,63 @@
+deviceId	address	name	description	unit	type	len	factor	offset	role	room	
+1	30501	Isttemperatur-FE7	Isttemperatur FE7	°C	uint16be	1	0.1	0	value.temperature		
+1	30502	Solltemperatur-FE7	Solltemperatur FE7	°C	uint16be	1	0.1	0	value.temperature		
+1	30503	Isttemperatur-FEK	Isttemperatur FEK	°C	uint16be	1	0.1	0	value.temperature		
+1	30504	Solltemperatur-FEK	Solltemperatur FEK	°C	uint16be	1	0.1	0	value.temperature		
+1	30505	Raumfeuchte	Raumfeuchte	°C	uint16be	1	0.1	0	value.temperature		
+1	30506	Taupunkttemperatur	Taupunkttemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30507	Aussentemperatur	Aussentemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30508	Isttemperatur HK1	Isttemperatur HK1	°C	uint16be	1	0.1	0	value.temperature		
+1	30509	Solltemperatur-HK1	Solltemperatur HK 1	°C	uint16be	1	0.1	0	value.temperature		
+1	30510	Solltemperatur HK1	Solltemperatur HK1	°C	uint16be	1	0.1	0	value.temperature		
+1	30511	Isttemperatur-HK2	Isttemperatur HK 2	°C	uint16be	1	0.1	0	value.temperature		
+1	30512	Solltemperatur-HK2	Solltemperatur HK 2	°C	uint16be	1	0.1	0	value.temperature		
+1	30513	Vorlaufisttemperatur WP	Vorlaufisttemperatur WP	°C	uint16be	1	0.1	0	value.temperature		
+1	30514	Vorlaufisttemperatur NHZ	Vorlaufisttemperatur NHZ	°C	uint16be	1	0.1	0	value.temperature		
+1	30515	Vorlaufisttemperatur	Vorlaufisttemperatur	°C	uint16be	1	0.1	0	value.temperature		
+1	30516	Ruecklaufisttemperatur	Rücklaufisttemperatur	°C	uint16be	1	0.1	0	value.temperature		
+1	30517	Festwertsolltemperatur	Festwertsolltemperatur	°C	uint16be	1	0.1	0	value.temperature		
+1	30518	Pufferisttemperatur	Pufferisttemperatur	°C	uint16be	1	0.1	0	value.temperature		
+1	30519	Puffersolltemperatur	Puffersolltemperatur	°C	uint16be	1	0.1	0	value.temperature		
+1	30520	Heizungsdruck	Heizungsdruck	bar	uint16be	1	0.1	0	value.valve		
+1	30521	Volumenstrom	Volumenstrom	l/min	uint16be	1	0.1	0	level.valve		
+1	30522	WW-Isttemperatur	Isttemperatur Warmwasser	°C	uint16be	1	0.1	0	value.temperature		
+1	30523	WW-Solltemperatur	Solltemperatur Warmwasser	°C	uint16be	1	0.1	0	value.temperature		
+1	30524	Isttemp-Geblaese	Isttemperatur Gebläse	K	uint16be	1	0.1	0	value.temperature		
+1	30525	Solltemp-Geblaese	Solltemperatur Gebläse	K	uint16be	1	0.1	0	value.temperature		
+1	30526	Isttemp-Flaeche	Isttemperatur Fläche	K	uint16be	1	0.1	0	value.temperature		
+1	30527	Solltemp-Flaeche	Solltemperatur Fläche	K	uint16be	1	0.1	0	value.temperature		
+1	30533	Einsatzgrenze-HZG	Einsatzgrenze Heizung	°C	int16be	1	0.1	0	value.temperature		
+1	30534	Einsatzgrenze-WW	Einsatzgrenze Warmwasser	°C	int16be	1	0.1	0	value.temperature		
+1	30536	Quellentemperatur	Quellentemperatur	°C	int16be	1	0.1	0	value.temperature		
+1	30537	Quellentemperatur-Min	Quellentemperatur Min	°C	int16be	1	0.1	0	value.temperature		
+1	30538	Quellendruck	Quellendruck	bar	int16be	1	0.01	0	value.valve		
+1	30539	Heissgastemperatur	Heissgastemperatur	°C	uint16be	1	0.1	0	value.temperature		
+1	30540	Hochdruck	Hochdruck	bar	int16be	1	0.1	0	value.valve		
+1	30541	Niederdruck	Niederdruck	bar	int16be	1	0.1	0	value.valve		
+1	32501	Betriebsstatus	Betriebsstatus		uint16be	1	1	0	state		
+1	32502	EVU-Freigabe	EVU-Freigabe		uint16be	1	1	0	state		
+1	32504	Fehlerstatus	Fehlerstatus		uint16be	1	1	0	state		
+1	32505	BUS-Status	BUS-Status		int16be	1	1	0	state		
+1	32507	aktiver-Fehler	aktiver Fehler		uint16be	1	1	0	state		
+1	33501	VD-Heizen-Tag	Wärmemenge-Heizen (alle WP) - Tag	kWh	uint16be	1	1	0	value		
+1	33502	VD-Heizen-Summe	WM-Heizen (alle WP) - Summe	kWh	uint16be	1	1	0	value		
+1	33503	VD-Heizen-Summe	WM-Heizen (alle WP) - Summe	MWh	uint16be	1	1	0	value		
+1	33504	VD-WW-Tag	Wärmemenge-Warmwasser (alle WP) - Tag	kWh	uint16be	1	1	0	value		
+1	33505	VD-WW-Summe	Wärmemenge-Warmwasser (alle WP) - Summe	kWh	uint16be	1	1	0	value		
+1	33506	VD-WW-Summe	Wärmemenge-Warmwasser (alle WP) - Summe	MWh	uint16be	1	1	0	value		
+1	33507	NHZ-Heizen-Summe	NHZ-Heizen (alle WP) - Summe	kWh	uint16be	1	1	0	value		
+1	33508	NHZ-Heizen-Summe	NHZ-Heizen (alle WP) - Summe	MWh	uint16be	1	1	0	value		
+1	33509	NHZ-WW-Summe	NHZ-Warmwasser (alle WP) Heizen - Summe	kWh	uint16be	1	1	0	value		
+1	33510	NHZ-WW-Summe	NHZ-Warmwasser (alle WP) Heizen - Summe	MWh	uint16be	1	1	0	value		
+1	33511	VD-Heizen-Tag	Leistungsaufnahme(alle WP) Heizen - Tag	kWh	uint16be	1	1	0	value		
+1	33512	VD-Heizen-Summe	Leistungsaufnahme(alle WP) Heizen - Summe	kWh	uint16be	1	1	0	value		
+1	33513	VD-Heizen-Summe	Leistungsaufnahme(alle WP) Heizen - Summe	MWh	uint16be	1	1	0	value		
+1	33514	VD-Warmwasser-Tag	Leistungsaufnahme (alle WP) Warmwasser - Tag	kWh	uint16be	1	1	0	value.power.consumption		
+1	33515	VD-Warmwasser-Summe	Leistungsaufnahme(alle WP) Warmwasser - Summe	kWh	uint16be	1	1	0	value.power.consumption		
+1	33516	VD-Warmwasser-Summe	Leistungsaufnahme(alle WP) Warmwasser - Summe	MWh	uint16be	1	1	0	value.power.consumption		
+1	33517	VD-Heizen	Laufzeit Verdichter - Heizen	h	uint16be	1	1	0	value		
+1	33518	VD-Warmwasser	Laufzeit Verdichter - Warmwasser	h	uint16be	1	1	0	value		
+1	33519	VD-Kuehlen	Laufzeit Verdichter - Kühlen	h	uint16be	1	1	0	value		
+1	33520	NHZ1	Laufzeit NHZ 1	h	uint16be	1	1	0	value		
+1	33521	NHZ2	Laufzeit NHZ 2	h	uint16be	1	1	0	value		
+1	33522	NHZ12	Laufzeit NHZ 1/2	h	uint16be	1	1	0	value		

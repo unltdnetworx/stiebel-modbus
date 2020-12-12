@@ -20,57 +20,22 @@ createState(DP1 + "AufheizprogrammAktiv", "", { name: "Aufheizprogramm aktiv", t
 var id_betriebsstatus = "modbus." + modbus_instance + ".inputRegisters.32001_Betriebsstatus";
 
 on(id_betriebsstatus, function (dp) {
-    let binStatus = dp.state.val.toString(2);
-    for (let i = 0; i < 15; i++) {
-        let writeValue = !!parseInt(binStatus[i], 10);
-        switch (i) {
-            case 0:
-                setState(DP1 + "SchaltprogrammAktiv", writeValue, true);
-                break;
-            case 1:
-                setState(DP1 + "Verdichter", writeValue, true);
-                break;
-            case 2:
-                setState(DP1 + "Heizen", writeValue, true);
-                break;
-            case 3:
-                setState(DP1 + "Kuehlen", writeValue, true);
-                break;
-            case 4:
-                setState(DP1 + "Warmwasserbereitung", writeValue, true);
-                break;
-            case 5:
-                setState(DP1 + "ElektrischeNacherwaermung", writeValue, true);
-                break;
-            case 6:
-                setState(DP1 + "Service", writeValue, true);
-                break;
-            case 7:
-                setState(DP1 + "EVUSperre", writeValue, true);
-                break;
-            case 8:
-                setState(DP1 + "FilterwechselBeide", writeValue, true);
-                break;
-            case 9:
-                setState(DP1 + "Lueftung", writeValue, true);
-                break;
-            case 10:
-                setState(DP1 + "Heizkreispumpe", writeValue, true);
-                break;
-            case 11:
-                setState(DP1 + "AbtauenVerdampfer", writeValue, true);
-                break;
-            case 12:
-                setState(DP1 + "FilterwechselAbluft", writeValue, true);
-                break;
-            case 13:
-                setState(DP1 + "FilterwechselZuluft", writeValue, true);
-                break;
-            case 14:
-                setState(DP1 + "AufheizprogrammAktiv", writeValue, true);
-                break;
-        };
-    }
+    let binStatus = Number(dp.state.val).toString(2).padEnd(15, "0");
+    setState(DP1 + "SchaltprogrammAktiv", !!parseInt(binStatus[0], 10), true);
+    setState(DP1 + "Verdichter", !!parseInt(binStatus[1], 10), true);
+    setState(DP1 + "Heizen", !!parseInt(binStatus[2], 10), true);
+    setState(DP1 + "Kuehlen", !!parseInt(binStatus[3], 10), true);
+    setState(DP1 + "Warmwasserbereitung", !!parseInt(binStatus[4], 10), true);
+    setState(DP1 + "ElektrischeNacherwaermung", !!parseInt(binStatus[5], 10), true);
+    setState(DP1 + "Service", !!parseInt(binStatus[6], 10), true);
+    setState(DP1 + "EVUSperre", !!parseInt(binStatus[7], 10), true);
+    setState(DP1 + "FilterwechselBeide", !!parseInt(binStatus[8], 10), true);
+    setState(DP1 + "Lueftung", !!parseInt(binStatus[9], 10), true);
+    setState(DP1 + "Heizkreispumpe", !!parseInt(binStatus[10], 10), true);
+    setState(DP1 + "AbtauenVerdampfer", !!parseInt(binStatus[11], 10), true);
+    setState(DP1 + "FilterwechselAbluft", !!parseInt(binStatus[12], 10), true);
+    setState(DP1 + "FilterwechselZuluft", !!parseInt(binStatus[13], 10), true);
+    setState(DP1 + "AufheizprogrammAktiv", !!parseInt(binStatus[14], 10), true);
 });
 
 let DP2 = "0_userdata.0.Stiebel-ISG.Betriebsstatus2."
@@ -79,16 +44,7 @@ createState(DP2 + "OfenKamin", "", { name: "Ofen/Kamin aktiv", type: "boolean", 
 
 var id_betriebsstatus2 = "modbus." + modbus_instance + ".inputRegisters.32005_Betriebsstatus-2";
 on(id_betriebsstatus2, function (dp) {
-    let binStatus = dp.state.val.toString(2);
-    for (let i = 0; i < 2; i++) {
-        let writeValue = !!parseInt(binStatus[i], 10);
-        switch (i) {
-            case 0:
-                setState(DP2 + "Sommerbetrieb", writeValue, true);
-                break;
-            case 1:
-                setState(DP2 + "OfenKamin", writeValue, true);
-                break;
-        };
-    }
+    let binStatus = Number(dp.state.val).toString(2).padEnd(2, "0");
+    setState(DP2 + "Sommerbetrieb", !!parseInt(binStatus[0], 10), true);
+    setState(DP2 + "OfenKamin", !!parseInt(binStatus[1], 10), true);
 });

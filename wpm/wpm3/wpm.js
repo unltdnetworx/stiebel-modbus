@@ -61,22 +61,6 @@ on(id_betriebsstatus, function (dp) {
     }
 });
 
-let DP2 = "0_userdata.0.Stiebel-ISG.EVU-Freigabe."
-createState(DP2 + "EVU-Freigabe", "", { name: "EVU-Freigabe", type: "boolean", role: "state" });
-
-var id_betriebsstatus2 = "modbus." + modbus_instance + ".inputRegisters.32502_EVU-Freigabe";
-on(id_betriebsstatus2, function (dp) {
-    let binStatus = dp.state.val.toString(2);
-    for (let i = 0; i < 1; i++) {
-        let writeValue = !!parseInt(binStatus[i], 10);
-        switch (i) {
-            case 0:
-                setState(DP2 + "EVU-Freigabe", writeValue, true);
-                break;
-        };
-    }
-});
-
 let DP3 = "0_userdata.0.Stiebel-ISG.Betriebsstatus2."
 createState(DP3 + "Verdichter-1", "", { name: "Verdichter 1", type: "boolean", role: "state" });
 createState(DP3 + "Verdichter-2", "", { name: "Verdichter 1", type: "boolean", role: "state" });

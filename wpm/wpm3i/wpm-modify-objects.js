@@ -21,6 +21,7 @@ modifyDP("modbus." + modbus_instance + ".holdingRegisters.44001_SG_Ready_ein-_un
 modifyDP("modbus." + modbus_instance + ".holdingRegisters.44002_SG_Ready_Eingang1", "states", "{\"0\":\"UNBESCHALTET\",\"1\":\"GESCHALTET\"}");
 modifyDP("modbus." + modbus_instance + ".holdingRegisters.44003_SG_Ready_Eingang2", "states", "{\"0\":\"UNBESCHALTET\",\"1\":\"GESCHALTET\"}");
 
+modifyDP("modbus." + modbus_instance + ".inputRegisters.32502_EVU-Freigabe", "states", "{\"0\":\"AN\",\"1\":\"AUS\"}");
 modifyDP("modbus." + modbus_instance + ".inputRegisters.32504_Fehlerstatus", "states", "{\"0\":\"KEIN FEHLER\",\"1\":\"FEHLER\"}");
 modifyDP("modbus." + modbus_instance + ".inputRegisters.32505_BUS-Status", "states", "{\"0\":\"STATUS-OK\",\"-1\":\"STATUS-ERROR\",\"-2\":\"ERROR-PASSIVE\",\"-3\":\"BUS-OFF\",\"-4\":\"PHYSICAL-ERROR\"}");
 

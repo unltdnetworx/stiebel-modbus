@@ -1,0 +1,225 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isScale
+30501	Isttemperatur-FE7	Isttemperatur FE7	°C	uint16be	1	1	0		value.temperature			
+30502	Solltemperatur-FE7	Solltemperatur FE7	°C	uint16be	1	1	0		value.temperature			
+30503	Isttemperatur-FEK	Isttemperatur FEK	°C	uint16be	1	1	0		value.temperature			
+30504	Solltemperatur-FEK	Solltemperatur FEK	°C	uint16be	1	1	0		value.temperature			
+30505	Raumfeuchte	Raumfeuchte	°C	uint16be	1	1	0		value.temperature			
+30506	Taupunkttemperatur	Taupunkttemperatur	°C	int16be	1	1	0		value.temperature			
+30507	Aussentemperatur	Aussentemperatur	°C	int16be	1	1	0		value.temperature			
+30508	Isttemperatur HK1	Isttemperatur HK1	°C	uint16be	1	1	0		value.temperature			
+30509	Solltemperatur-HK1	Solltemperatur HK 1	°C	uint16be	1	1	0		value.temperature			
+30510	Solltemperatur HK1	Solltemperatur HK1	°C	uint16be	1	1	0		value.temperature			
+30511	Isttemperatur-HK2	Isttemperatur HK 2	°C	uint16be	1	1	0		value.temperature			
+30512	Solltemperatur-HK2	Solltemperatur HK 2	°C	uint16be	1	1	0		value.temperature			
+30513	Vorlaufisttemperatur WP	Vorlaufisttemperatur WP	°C	uint16be	1	1	0		value.temperature			
+30514	Vorlaufisttemperatur NHZ	Vorlaufisttemperatur NHZ	°C	uint16be	1	1	0		value.temperature			
+30515	Vorlaufisttemperatur	Vorlaufisttemperatur	°C	uint16be	1	1	0		value.temperature			
+30516	Ruecklaufisttemperatur	Rücklaufisttemperatur	°C	uint16be	1	1	0		value.temperature			
+30517	Festwertsolltemperatur	Festwertsolltemperatur	°C	uint16be	1	1	0		value.temperature			
+30518	Pufferisttemperatur	Pufferisttemperatur	°C	uint16be	1	1	0		value.temperature			
+30519	Puffersolltemperatur	Puffersolltemperatur	°C	uint16be	1	1	0		value.temperature			
+30520	Heizungsdruck	Heizungsdruck	bar	uint16be	1	1	0		value.valve			
+30521	Volumenstrom	Volumenstrom	l/min	uint16be	1	1	0		level.valve			
+30522	WW-Isttemperatur	Isttemperatur Warmwasser	°C	uint16be	1	1	0		value.temperature			
+30523	WW-Solltemperatur	Solltemperatur Warmwasser	°C	uint16be	1	1	0		value.temperature			
+30524	Isttemp-Geblaese	Isttemperatur Gebläse	K	uint16be	1	1	0		value.temperature			
+30525	Solltemp-Geblaese	Solltemperatur Gebläse	K	uint16be	1	1	0		value.temperature			
+30526	Isttemp-Flaeche	Isttemperatur Fläche	K	uint16be	1	1	0		value.temperature			
+30527	Solltemp-Flaeche	Solltemperatur Fläche	K	uint16be	1	1	0		value.temperature			
+30528	Kollektortemperatur	Kollektortemperatur	°C	uint16be	1	1	0		value.temperature			
+30529	Speichertemperatur	Speichertemperatur	°C	uint16be	1	1	0		value.temperature			
+30530	Laufzeit-solar	Laufzeit Solar	h	uint16be	1	1	0		value			
+30531	Isttemperatur-extern	Isttemperatur - Wärmeerzeuger extern	°C	uint16be	1	1	0		value.temperature			
+30532	Solltemperatur-extern	Solltemperatur - Wärmeerzeuger extern	K	uint16be	1	1	0		value.temperature			
+30533	Einsatzgrenze-HZG	Einsatzgrenze Heizung	°C	int16be	1	1	0		value.temperature			
+30534	Einsatzgrenze-WW	Einsatzgrenze Warmwasser	°C	int16be	1	1	0		value.temperature			
+30535	Laufzeit-extern	Laufzeit - Wärmeerzeuger extern	h	uint16be	1	1	0		value			
+30536	Quellentemperatur	Quellentemperatur	°C	int16be	1	1	0		value.temperature			
+30537	Quellentemperatur-Min	Quellentemperatur Min	°C	int16be	1	1	0		value.temperature			
+30538	Quellendruck	Quellendruck	bar	int16be	1	1	0		value.valve			
+30542	Ruecklauftemp-WP1	Rücklauftemperatur Wärmepumpe 1	°C	uint16be	1	1	0		value.temperature			
+30543	Vorlauftemp-WP1	Vorlauftemperatur Wärmepumpe 1	°C	uint16be	1	1	0		value.temperature			
+30544	Heissgastemp-WP1	Heissgastemperatur Wärmepumpe 1	°C	uint16be	1	1	0		value.temperature			
+30545	Druck-ND-WP1	Druck Niederdruck Wärmepumpe 1	bar	uint16be	1	1	0		value.valve			
+30546	Druck-MD-WP1	Druck Mitteldruck Wärmepumpe 1	bar	uint16be	1	1	0		value.valve			
+30547	Druck-HD-WP1	Druck Hochdruck Wärmepumpe 1	bar	uint16be	1	1	0		value.valve			
+30548	Wasservolumenstrom-WP1	Wasservolumenstrom Wärmepumpe 1	l/min	uint16be	1	1	0		value.valve			
+30549	Ruecklauftemp-WP2	Rücklauftemperatur Wärmepumpe 2	°C	uint16be	1	1	0		value.temperature			
+30550	Vorlauftemp-WP2	Vorlauftemperatur Wärmepumpe 2	°C	uint16be	1	1	0		value.temperature			
+30551	Heissgastemp-WP2	Heissgastemperatur Wärmepumpe 2	°C	uint16be	1	1	0		value.temperature			
+30552	Druck-ND-WP2	Druck Niederdruck Wärmepumpe 2	bar	uint16be	1	1	0		value.valve			
+30553	Druck-MD-WP2	Druck Mitteldruck Wärmepumpe 2	bar	uint16be	1	1	0		value.valve			
+30554	Druck-HD-WP2	Druck Hochdruck Wärmepumpe 2	bar	uint16be	1	1	0		value.valve			
+30555	Wasservolumenstrom-WP2	Wasservolumenstrom Wärmepumpe 2	l/min	uint16be	1	1	0		value.valve			
+30556	Ruecklauftemp-WP3	Rücklauftemperatur Wärmepumpe 3	°C	uint16be	1	1	0		value.temperature			
+30557	Vorlauftemp-WP3	Vorlauftemperatur Wärmepumpe 3	°C	uint16be	1	1	0		value.temperature			
+30558	Heissgastemp-WP3	Heissgastemperatur Wärmepumpe 3	°C	uint16be	1	1	0		value.temperature			
+30559	Druck-ND-WP3	Druck Niederdruck Wärmepumpe 3	bar	uint16be	1	1	0		value.valve			
+30560	Druck-MD-WP3	Druck Mitteldruck Wärmepumpe 3	bar	uint16be	1	1	0		value.valve			
+30561	Druck-HD-WP3	Druck Hochdruck Wärmepumpe 3	bar	uint16be	1	1	0		value.valve			
+30562	Wasservolumenstrom-WP3	Wasservolumenstrom Wärmepumpe 3	l/min	uint16be	1	1	0		value.valve			
+30563	Ruecklauftemp-WP4	Rücklauftemperatur Wärmepumpe 4	°C	uint16be	1	1	0		value.temperature			
+30564	Vorlauftemp-WP4	Vorlauftemperatur Wärmepumpe 4	°C	uint16be	1	1	0		value.temperature			
+30565	Heissgastemp-WP4	Heissgastemperatur Wärmepumpe 4	°C	uint16be	1	1	0		value.temperature			
+30566	Druck-ND-WP4	Druck Niederdruck Wärmepumpe 4	bar	uint16be	1	1	0		value.valve			
+30567	Druck-MD-WP4	Druck Mitteldruck Wärmepumpe 4	bar	uint16be	1	1	0		value.valve			
+30568	Druck-HD-WP4	Druck Hochdruck Wärmepumpe 4	bar	uint16be	1	1	0		value.valve			
+30569	Wasservolumenstrom-WP4	Wasservolumenstrom Wärmepumpe 4	l/min	uint16be	1	1	0		value.valve			
+30570	Ruecklauftemp-WP5	Rücklauftemperatur Wärmepumpe 5	°C	uint16be	1	1	0		value.temperature			
+30571	Vorlauftemp-WP5	Vorlauftemperatur Wärmepumpe 5	°C	uint16be	1	1	0		value.temperature			
+30572	Heissgastemp-WP5	Heissgastemperatur Wärmepumpe 5	°C	uint16be	1	1	0		value.temperature			
+30573	Druck-ND-WP5	Druck Niederdruck Wärmepumpe 5	bar	uint16be	1	1	0		value.valve			
+30574	Druck-MD-WP5	Druck Mitteldruck Wärmepumpe 5	bar	uint16be	1	1	0		value.valve			
+30575	Druck-HD-WP5	Druck Hochdruck Wärmepumpe 5	bar	uint16be	1	1	0		value.valve			
+30576	Wasservolumenstrom-WP5	Wasservolumenstrom Wärmepumpe 5	l/min	uint16be	1	1	0		value.valve			
+30577	Ruecklauftemp-WP6	Rücklauftemperatur Wärmepumpe 6	°C	uint16be	1	1	0		value.temperature			
+30578	Vorlauftemp-WP6	Vorlauftemperatur Wärmepumpe 6	°C	uint16be	1	1	0		value.temperature			
+30579	Heissgastemp-WP6	Heissgastemperatur Wärmepumpe 6	°C	uint16be	1	1	0		value.temperature			
+30580	Druck-ND-WP6	Druck Niederdruck Wärmepumpe 6	bar	uint16be	1	1	0		value.valve			
+30581	Druck-MD-WP6	Druck Mitteldruck Wärmepumpe 6	bar	uint16be	1	1	0		value.valve			
+30582	Druck-HD-WP6	Druck Hochdruck Wärmepumpe 6	bar	uint16be	1	1	0		value.valve			
+30583	Wasservolumenstrom-WP6	Wasservolumenstrom Wärmepumpe 6	l/min	uint16be	1	1	0		value.valve			
+32501	Betriebsstatus	Betriebsstatus		uint16be	1	1	0		state			
+32502	EVU-Freigabe	EVU-Freigabe		uint16be	1	1	0		state			
+32503	Betriebsstatus-2	Betriebsstatus 2		uint16be	1	1	0		state			
+32504	Fehlerstatus	Fehlerstatus		uint16be	1	1	0		state			
+32505	BUS-Status	BUS-Status		int16be	1	1	0		state			
+32506	Abtauen-eingeleitet	Abtauen eingeleitet		uint16be	1	1	0		state			
+32507	aktiver-Fehler	aktiver Fehler		uint16be	1	1	0		state			
+33501	VD-Heizen-Tag	Wärmemenge-Heizen (alle WP) - Tag	kWh	uint16be	1	1	0		value			
+33502	VD-Heizen-Summe	WM-Heizen (alle WP) - Summe	kWh	uint16be	1	1	0		value			
+33503	VD-Heizen-Summe	WM-Heizen (alle WP) - Summe	MWh	uint16be	1	1	0		value			
+33504	VD-WW-Tag	Wärmemenge-Warmwasser (alle WP) - Tag	kWh	uint16be	1	1	0		value			
+33505	VD-WW-Summe	Wärmemenge-Warmwasser (alle WP) - Summe	kWh	uint16be	1	1	0		value			
+33506	VD-WW-Summe	Wärmemenge-Warmwasser (alle WP) - Summe	MWh	uint16be	1	1	0		value			
+33507	NHZ-Heizen-Summe	NHZ-Heizen (alle WP) - Summe	kWh	uint16be	1	1	0		value			
+33508	NHZ-Heizen-Summe	NHZ-Heizen (alle WP) - Summe	MWh	uint16be	1	1	0		value			
+33509	NHZ-WW-Summe	NHZ-Warmwasser (alle WP) Heizen - Summe	kWh	uint16be	1	1	0		value			
+33510	NHZ-WW-Summe	NHZ-Warmwasser (alle WP) Heizen - Summe	MWh	uint16be	1	1	0		value			
+33511	VD-Heizen-Tag	Leistungsaufnahme(alle WP) Heizen - Tag	kWh	uint16be	1	1	0		value			
+33512	VD-Heizen-Summe	Leistungsaufnahme(alle WP) Heizen - Summe	kWh	uint16be	1	1	0		value			
+33513	VD-Heizen-Summe	Leistungsaufnahme(alle WP) Heizen - Summe	MWh	uint16be	1	1	0		value			
+33514	VD-Warmwasser-Tag	Leistungsaufnahme (alle WP) Warmwasser - Tag	kWh	uint16be	1	1	0		value.power.consumption			
+33515	VD-Warmwasser-Summe	Leistungsaufnahme(alle WP) Warmwasser - Summe	kWh	uint16be	1	1	0		value.power.consumption			
+33516	VD-Warmwasser-Summe	Leistungsaufnahme(alle WP) Warmwasser - Summe	MWh	uint16be	1	1	0		value.power.consumption			
+33523	VD-Heizen-Tag-WP1	Verdichter Heizen Tag Wärmemenge - Wärmepumpe 1	kWh	uint16be	1	1	0		value			
+33524	VD-Heizen-Summe-WP1	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 1	kWh	uint16be	1	1	0		value			
+33525	VD-Heizen-Summe-WP1	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 1	MWh	uint16be	1	1	0		value			
+33526	VD-WW-Tag-WP1	Verdichter Warmwasser Tag Wärmemenge - Wärmepumpe 1	kWh	uint16be	1	1	0		value			
+33527	VD-WW-Summe-WP1	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 1	kWh	uint16be	1	1	0		value			
+33528	VD-WW-Summe-WP1	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 1	MWh	uint16be	1	1	0		value			
+33529	NHZ-Heizen-Summe	Nachheizstufe Heizen Wärmemenge - Wärmepumpe 1	kWh	uint16be	1	1	0		value			
+33530	NHZ-Heizen-Summe	Nachheizstufe Heizen Wärmemenge - Wärmepumpe 1	MWh	uint16be	1	1	0		value			
+33531	NHZ-WW-Summe	Nachheizstufe Wärmemenge Warmwasser - Wärmepumpe 1	kWh	uint16be	1	1	0		value			
+33532	NHZ-WW-Summe	Nachheizstufe Wärmemenge Warmwasser - Wärmepumpe 1	MWh	uint16be	1	1	0		value			
+33533	VD-Heizen-Tag-WP1	Verdichter Heizen Tag Leistungsaufnahme - Wärmepumpe 1		uint16be	1	1	0		value			
+33534	VD-Heizen-Summe-WP1	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 1		uint16be	1	1	0		value			
+33535	VD-Heizen-Summe-WP1	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 1		uint16be	1	1	0		value			
+33536	VD-WW-Tag-WP1	Verdichter Warmwasser Tag Leistungsaufnahme- Wärmepumpe 1		uint16be	1	1	0		value			
+33537	VD-WW-Summe-WP1	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 1		uint16be	1	1	0		value			
+33538	VD-WW-Summe-WP1	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 1		uint16be	1	1	0		value			
+33539	VD1-Heizen	Laufzeit Verdichter 1 Heizen - Wärmepumpe 1	h	uint16be	1	1	0		value			
+33540	VD2-Heizen	Laufzeit Verdichter 2 Heizen - Wärmepumpe 1	h	uint16be	1	1	0		value			
+33541	VD12-Heizen	Laufzeit Verdichter 1/2 Heizen - Wärmepumpe 1	h	uint16be	1	1	0		value			
+33542	VD1-WW	Laufzeit Verdichter 1 Warmwasser- Wärmepumpe 1	h	uint16be	1	1	0		value			
+33543	VD2-WW	Laufzeit Verdichter 2 Warmwasser- Wärmepumpe 1	h	uint16be	1	1	0		value			
+33544	VD12-WW	Laufzeit Verdichter 1/2 Warmwasser- Wärmepumpe 1	h	uint16be	1	1	0		value			
+33545	VD1-Kuehlen	Laufzeit Verdichter Kühlen - Wärmepumpe 1	h	uint16be	1	1	0		value			
+33546	NHZ1	Laufzeit Nachheizstufe 1 - Wärmepumpe 1	h	uint16be	1	1	0		value			
+33547	NHZ2	Laufzeit Nachheizstufe 2 - Wärmepumpe 1	h	uint16be	1	1	0		value			
+33548	NHZ12	Laufzeit Nachheizstufe 1/2 - Wärmepumpe 1	h	uint16be	1	1	0		value			
+33549	VD-Heizen-Tag-WP2	Verdichter Heizen Tag Wärmemenge - Wärmepumpe 2	kWh	uint16be	1	1	0		value			
+33550	VD-Heizen-Summe-WP2	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 2	kWh	uint16be	1	1	0		value			
+33551	VD-Heizen-Summe-WP2	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 2	MWh	uint16be	1	1	0		value			
+33552	VD-WW-Tag-WP2	Verdichter Warmwasser Tag Wärmemenge - Wärmepumpe 2	kWh	uint16be	1	1	0		value			
+33553	VD-WW-Summe-WP2	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 2	kWh	uint16be	1	1	0		value			
+33554	VD-WW-Summe-WP2	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 2	MWh	uint16be	1	1	0		value			
+33555	VD-Heizen-Tag-WP2	Verdichter Heizen Tag Leistungsaufnahme- Wärmepumpe 2		uint16be	1	1	0		value			
+33556	VD-Heizen-Summe-WP2	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 2		uint16be	1	1	0		value			
+33557	VD-Heizen-Summe-WP2	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 2		uint16be	1	1	0		value			
+33558	VD-WW-Tag-WP2	Verdichter Warmwasser Tag Leistungsaufnahme- Wärmepumpe 2		uint16be	1	1	0		value			
+33559	VD-WW-Summe-WP2	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 2		uint16be	1	1	0		value			
+33560	VD-WW-Summe-WP2	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 2		uint16be	1	1	0		value			
+33561	VD1-Heizen	Laufzeit Verdichter 1 Heizen - Wärmepumpe 2	h	uint16be	1	1	0		value			
+33562	VD2-Heizen	Laufzeit Verdichter 2 Heizen - Wärmepumpe 2	h	uint16be	1	1	0		value			
+33563	VD12-Heizen	Laufzeit Verdichter 1/2 Heizen - Wärmepumpe 2	h	uint16be	1	1	0		value			
+33564	VD1-WW	Laufzeit Verdichter 1 Warmwasser- Wärmepumpe 2	h	uint16be	1	1	0		value			
+33565	VD2-WW	Laufzeit Verdichter 2 Warmwasser- Wärmepumpe 2	h	uint16be	1	1	0		value			
+33566	VD12-WW	Laufzeit Verdichter 1/2 Warmwasser- Wärmepumpe 2	h	uint16be	1	1	0		value			
+33567	VD1-Kuehlen	Laufzeit Verdichter Kühlen - Wärmepumpe 2	h	uint16be	1	1	0		value			
+33568	VD-Heizen-Tag-WP3	Verdichter Heizen Tag Wärmemenge - Wärmepumpe 3	kWh	uint16be	1	1	0		value			
+33569	VD-Heizen-Summe-WP3	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 3	kWh	uint16be	1	1	0		value			
+33570	VD-Heizen-Summe-WP3	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 3	MWh	uint16be	1	1	0		value			
+33571	VD-WW-Tag-WP3	Verdichter Warmwasser Tag Wärmemenge - Wärmepumpe 3	kWh	uint16be	1	1	0		value			
+33572	VD-WW-Summe-WP3	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 3	kWh	uint16be	1	1	0		value			
+33573	VD-WW-Summe-WP3	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 3	MWh	uint16be	1	1	0		value			
+33574	VD-Heizen-Tag-WP3	Verdichter Heizen Tag Leistungsaufnahme- Wärmepumpe 3		uint16be	1	1	0		value			
+33575	VD-Heizen-Summe-WP3	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 3		uint16be	1	1	0		value			
+33576	VD-Heizen-Summe-WP3	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 3		uint16be	1	1	0		value			
+33577	VD-WW-Tag-WP3	Verdichter Warmwasser Tag Leistungsaufnahme- Wärmepumpe 3		uint16be	1	1	0		value			
+33578	VD-WW-Summe-WP3	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 3		uint16be	1	1	0		value			
+33579	VD-WW-Summe-WP3	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 3		uint16be	1	1	0		value			
+33580	VD1-Heizen	Laufzeit Verdichter 1 Heizen - Wärmepumpe 3	h	uint16be	1	1	0		value			
+33581	VD2-Heizen	Laufzeit Verdichter 2 Heizen - Wärmepumpe 3	h	uint16be	1	1	0		value			
+33582	VD12-Heizen	Laufzeit Verdichter 1/2 Heizen - Wärmepumpe 3	h	uint16be	1	1	0		value			
+33583	VD1-WW	Laufzeit Verdichter 1 Warmwasser- Wärmepumpe 3	h	uint16be	1	1	0		value			
+33584	VD2-WW	Laufzeit Verdichter 2 Warmwasser- Wärmepumpe 3	h	uint16be	1	1	0		value			
+33585	VD12-WW	Laufzeit Verdichter 1/2 Warmwasser- Wärmepumpe 3	h	uint16be	1	1	0		value			
+33586	VD1-Kuehlen	Laufzeit Verdichter Kühlen - Wärmepumpe 3	h	uint16be	1	1	0		value			
+33587	VD-Heizen-Tag-WP4	Verdichter Heizen Tag Wärmemenge - Wärmepumpe 4	kWh	uint16be	1	1	0		value			
+33588	VD-Heizen-Summe-WP4	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 4	kWh	uint16be	1	1	0		value			
+33589	VD-Heizen-Summe-WP4	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 4	MWh	uint16be	1	1	0		value			
+33590	VD-WW-Tag-WP4	Verdichter Warmwasser Tag Wärmemenge - Wärmepumpe 4	kWh	uint16be	1	1	0		value			
+33591	VD-WW-Summe-WP4	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 4	kWh	uint16be	1	1	0		value			
+33592	VD-WW-Summe-WP4	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 4	MWh	uint16be	1	1	0		value			
+33593	VD-Heizen-Tag-WP4	Verdichter Heizen Tag Leistungsaufnahme- Wärmepumpe 4		uint16be	1	1	0		value			
+33594	VD-Heizen-Summe-WP4	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 4		uint16be	1	1	0		value			
+33595	VD-Heizen-Summe-WP4	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 4		uint16be	1	1	0		value			
+33596	VD-WW-Tag-WP4	Verdichter Warmwasser Tag Leistungsaufnahme- Wärmepumpe 4		uint16be	1	1	0		value			
+33597	VD-WW-Summe-WP4	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 4		uint16be	1	1	0		value			
+33598	VD-WW-Summe-WP4	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 4		uint16be	1	1	0		value			
+33599	VD1-Heizen	Laufzeit Verdichter 1 Heizen - Wärmepumpe 4	h	uint16be	1	1	0		value			
+33600	VD2-Heizen	Laufzeit Verdichter 2 Heizen - Wärmepumpe 4	h	uint16be	1	1	0		value			
+33601	VD12-Heizen	Laufzeit Verdichter 1/2 Heizen - Wärmepumpe 4	h	uint16be	1	1	0		value			
+33602	VD1-WW	Laufzeit Verdichter 1 Warmwasser- Wärmepumpe 4	h	uint16be	1	1	0		value			
+33603	VD2-WW	Laufzeit Verdichter 2 Warmwasser- Wärmepumpe 4	h	uint16be	1	1	0		value			
+33604	VD12-WW	Laufzeit Verdichter 1/2 Warmwasser- Wärmepumpe 4	h	uint16be	1	1	0		value			
+33605	VD1-Kuehlen	Laufzeit Verdichter Kühlen - Wärmepumpe 4	h	uint16be	1	1	0		value			
+33606	VD-Heizen-Tag-WP5	Verdichter Heizen Tag Wärmemenge - Wärmepumpe 5	kWh	uint16be	1	1	0		value			
+33607	VD-Heizen-Summe-WP5	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 5	kWh	uint16be	1	1	0		value			
+33608	VD-Heizen-Summe-WP5	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 5	MWh	uint16be	1	1	0		value			
+33609	VD-WW-Tag-WP5	Verdichter Warmwasser Tag Wärmemenge - Wärmepumpe 5	kWh	uint16be	1	1	0		value			
+33610	VD-WW-Summe-WP5	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 5	kWh	uint16be	1	1	0		value			
+33611	VD-WW-Summe-WP5	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 5	MWh	uint16be	1	1	0		value			
+33612	VD-Heizen-Tag-WP5	Verdichter Heizen Tag Leistungsaufnahme- Wärmepumpe 5		uint16be	1	1	0		value			
+33613	VD-Heizen-Summe-WP5	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 5		uint16be	1	1	0		value			
+33614	VD-Heizen-Summe-WP5	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 5		uint16be	1	1	0		value			
+33615	VD-WW-Tag-WP5	Verdichter Warmwasser Tag Leistungsaufnahme- Wärmepumpe 5		uint16be	1	1	0		value			
+33616	VD-WW-Summe-WP5	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 5		uint16be	1	1	0		value			
+33617	VD-WW-Summe-WP5	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 5		uint16be	1	1	0		value			
+33618	VD1-Heizen	Laufzeit Verdichter 1 Heizen - Wärmepumpe 5	h	uint16be	1	1	0		value			
+33619	VD2-Heizen	Laufzeit Verdichter 2 Heizen - Wärmepumpe 5	h	uint16be	1	1	0		value			
+33620	VD12-Heizen	Laufzeit Verdichter 1/2 Heizen - Wärmepumpe 5	h	uint16be	1	1	0		value			
+33621	VD1-WW	Laufzeit Verdichter 1 Warmwasser- Wärmepumpe 5	h	uint16be	1	1	0		value			
+33622	VD2-WW	Laufzeit Verdichter 2 Warmwasser- Wärmepumpe 5	h	uint16be	1	1	0		value			
+33623	VD12-WW	Laufzeit Verdichter 1/2 Warmwasser- Wärmepumpe 5	h	uint16be	1	1	0		value			
+33624	VD1-Kuehlen	Laufzeit Verdichter Kühlen - Wärmepumpe 5	h	uint16be	1	1	0		value			
+33625	VD-Heizen-Tag-WP6	Verdichter Heizen Tag Wärmemenge - Wärmepumpe 6	kWh	uint16be	1	1	0		value			
+33626	VD-Heizen-Summe-WP6	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 6	kWh	uint16be	1	1	0		value			
+33627	VD-Heizen-Summe-WP6	Verdichter Heizen Summe Wärmemenge - Wärmepumpe 6	MWh	uint16be	1	1	0		value			
+33628	VD-WW-Tag-WP6	Verdichter Warmwasser Tag Wärmemenge - Wärmepumpe 6	kWh	uint16be	1	1	0		value			
+33629	VD-WW-Summe-WP6	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 6	kWh	uint16be	1	1	0		value			
+33630	VD-WW-Summe-WP6	Verdichter Warmwasser Summe Wärmemenge - Wärmepumpe 6	MWh	uint16be	1	1	0		value			
+33631	VD-Heizen-Tag-WP6	Verdichter Heizen Tag Leistungsaufnahme- Wärmepumpe 6		uint16be	1	1	0		value			
+33632	VD-Heizen-Summe-WP6	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 6		uint16be	1	1	0		value			
+33633	VD-Heizen-Summe-WP6	Verdichter Heizen Summe Leistungsaufnahme - Wärmepumpe 6		uint16be	1	1	0		value			
+33634	VD-WW-Tag-WP6	Verdichter Warmwasser Tag Leistungsaufnahme- Wärmepumpe 6		uint16be	1	1	0		value			
+33635	VD-WW-Summe-WP6	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 6		uint16be	1	1	0		value			
+33636	VD-WW-Summe-WP6	Verdichter Warmwasser Summe Leistungsaufnahme - Wärmepumpe 6		uint16be	1	1	0		value			
+33637	VD1-Heizen	Laufzeit Verdichter 1 Heizen - Wärmepumpe 6	h	uint16be	1	1	0		value			
+33638	VD2-Heizen	Laufzeit Verdichter 2 Heizen - Wärmepumpe 6	h	uint16be	1	1	0		value			
+33639	VD12-Heizen	Laufzeit Verdichter 1/2 Heizen - Wärmepumpe 6	h	uint16be	1	1	0		value			
+33640	VD1-WW	Laufzeit Verdichter 1 Warmwasser- Wärmepumpe 6	h	uint16be	1	1	0		value			
+33641	VD2-WW	Laufzeit Verdichter 2 Warmwasser- Wärmepumpe 6	h	uint16be	1	1	0		value			
+33642	VD12-WW	Laufzeit Verdichter 1/2 Warmwasser- Wärmepumpe 6	h	uint16be	1	1	0		value			
+33643	VD1-Kuehlen	Laufzeit Verdichter Kühlen - Wärmepumpe 6	h	uint16be	1	1	0		value			

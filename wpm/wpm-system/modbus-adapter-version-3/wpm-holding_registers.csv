@@ -1,0 +1,23 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	cw	isScale
+41501	Betriebsart	Betriebsart		uint16be	1	1	0		level		WAHR	FALSCH		
+41502	Komfort-Temperatur-HK1	Komfort-Temperatur - Heizkreis 1	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41503	ECO-Temperatur-HK1	ECO-Temperatur - Heizkreis 1	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41504	Steigung-Heizkurve-HK1	Steigung Heizkurve - Heizkreis 1		uint16be	1	1	0		level		WAHR	FALSCH		
+41505	Komfort-Temperatur-HK2	Komfort-Temperatur - Heizkreis 2	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41506	ECO-Temperatur-HK2	ECO-Temperatur - Heizkreis 2	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41507	Steigung-Temperatur-HK2	Steigung Heizkurve - Heizkreis 2		uint16be	1	1	0		level		WAHR	FALSCH		
+41508	Festwertbetrieb	Festwertbetrieb	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41510	Komfort-Temperatur-WW	Komfort-Temperatur - Warmwasser	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41511	ECO-Temperatur-WW	ECO-Temperatur - Warmwasser 	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41512	WW-Stufen	Warmwasserstufen		uint16be	1	1	0		level		WAHR	FALSCH		
+41513	Bivalenztemp-WW	Bivalenztemperatur Warmwasser	°C	int16be	1	1	0		value.temperature		WAHR	FALSCH		
+41514	Vorlaufsolltemp-FK	Vorlaufsolltemperatur Flächenkühlung	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41515	Hysterese-Vorlautemp-FK	Hystere Vorlauftemperatur Flächenkühlen	K	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41516	Raumsolltemp-FK	Raumsolltemperatur Flächenkühlung	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41517	Vorlaufsolltemp-GK	Vorlaufsolltemperatur Gebläsekühlung	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41519	Raumsolltemp-GK	Raumsolltemperatur Gebläsekühlung	°C	uint16be	1	1	0		value.temperature		WAHR	FALSCH		
+41520	Reset	Reset		uint16be	1	1	0		state		WAHR	FALSCH		
+41521	Restart-ISG	ISG Neustart		uint16be	1	1	0		state		WAHR	FALSCH		
+44001	SG_Ready_ein-_und_ausschalten	SG Ready		uint16be	1	1	0		indicator		FALSCH	FALSCH		
+44002	SG_Ready_Eingang1	SG Ready - Eingang 1		uint16be	1	1	0		indicator		FALSCH	FALSCH		
+44003	SG_Ready_Eingang2	SG Ready - Eingang 2		uint16be	1	1	0		indicator		FALSCH	FALSCH		

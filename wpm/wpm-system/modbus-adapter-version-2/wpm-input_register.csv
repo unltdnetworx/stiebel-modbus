@@ -13,7 +13,7 @@ deviceId	address	name	description	unit	type	len	factor	offset	role	room
 1	30517	Festwertsolltemperatur	Festwertsolltemperatur	°C	uint16be	1	0.1	0	value.temperature		
 1	30518	Pufferisttemperatur	Pufferisttemperatur	°C	uint16be	1	0.1	0	value.temperature		
 1	30519	Puffersolltemperatur	Puffersolltemperatur	°C	uint16be	1	0.1	0	value.temperature		
-1	30520	Heizungsdruck	Heizungsdruck	bar	uint16be	1	0.1	0	value.valve		
+1	30520	Heizungsdruck	Heizungsdruck	bar	uint16be	1	0.01	0	value.valve		
 1	30521	Volumenstrom	Volumenstrom	l/min	uint16be	1	0.1	0	level.valve		
 1	30522	WW-Isttemperatur	Isttemperatur Warmwasser	°C	uint16be	1	0.1	0	value.temperature		
 1	30523	WW-Solltemperatur	Solltemperatur Warmwasser	°C	uint16be	1	0.1	0	value.temperature		
